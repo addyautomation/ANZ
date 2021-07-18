@@ -1,0 +1,22 @@
+package com.qa.runner;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.Cucumber;
+import cucumber.api.CucumberOptions;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		
+		features = "E:\\ANZ\\MavenDemo\\src\\main\\java\\com\\qa\\features\\calculator.feature",
+		glue= {"com/qa/stepDefinitions"},
+		monochrome=true,
+        dryRun=true		
+)
+
+
+
+
+public class TestRunner {
+
+	}

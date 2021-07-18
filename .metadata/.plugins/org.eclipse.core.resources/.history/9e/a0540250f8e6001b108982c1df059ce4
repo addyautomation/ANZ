@@ -1,0 +1,18 @@
+Feature: NFIT Login Smoke Scenario
+
+   Scenario: Test Login with Valid Credentials
+   Given Open chrome and start application
+   When User enters valid username and valid Password
+   Then User should be able to login
+   
+   Scenario: Validate Borrowing Calculator Test
+
+Given User launches given URL
+When  User enters all the details
+And   User clicks on workout button
+Then  User is displayed with valid message
+Then user clicks on Start Over menu
+And User enters details
+And User clicks on workout button
+Then user validates the displayed message
+ 

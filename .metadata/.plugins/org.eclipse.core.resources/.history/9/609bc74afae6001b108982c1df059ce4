@@ -1,0 +1,69 @@
+package stepDefinition;
+
+import com.crm.qa.base.TestBase;
+import com.crm.qa.pages.LoginPage;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+
+
+public class Borrowing_Calculator extends TestBase
+
+
+{
+	
+	public Borrowing_Calculator() throws Exception {
+		super();
+		
+	}
+
+	LoginPage login;
+	
+
+	@Given("^User launches given URL$")
+	public void User_launches_given_URL() throws Throwable {
+	   
+		TestBase.initialization();
+	}
+
+	@When("^User enters all the details$")
+	public void User_enters_all_the_details() throws Throwable {
+	    
+		login.validateDetails();
+	}
+
+	@When("^User clicks on workout button$")
+	public void User_clicks_on_workout_button1() throws Throwable {
+	    
+	}
+
+	@Then("^User is displayed with valid message$")
+	public void User_is_displayed_with_valid_message() throws Throwable {
+	    
+	}
+
+	@Then("^user clicks on Start Over menu$")
+	public void user_clicks_on_Start_Over_menu() throws Throwable {
+	   
+	}
+
+	@Then("^User enters details$")
+	public void User_enters_details() throws Throwable {
+	   
+	}
+
+	@Then("^User clicks on workout button$")
+	public void User_clicks_on_workout_button() throws Throwable {
+	    
+	}
+
+	@Then("^user validates the displayed message$")
+	public void user_validates_the_displayed_message() throws Throwable {
+	    
+	}
+
+	
+	
+}

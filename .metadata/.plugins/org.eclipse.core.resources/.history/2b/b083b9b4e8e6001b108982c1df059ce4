@@ -1,0 +1,76 @@
+package com.crm.qa.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
+
+import com.crm.qa.base.TestBase;
+
+public class LoginPage extends TestBase{
+
+	
+	@FindBy(xpath=".//*[@id='application_type_single']")
+	WebElement applicationType;
+	
+	
+	@FindBy(xpath=".//*[@title='Number of dependants']")
+	WebElement dependents;
+	
+	@FindBy(xpath=".//label[contains(text(),'Your income (before tax)')]/following-sibling::div/input")
+	WebElement income;
+	
+	@FindBy(xpath=".//label[contains(text(),'Your other income')]/following-sibling::div/input")
+	WebElement otherIncome;
+	
+	@FindBy(xpath=".//label[contains(text(),'Living expenses')]/following-sibling::div/input")
+	WebElement livingExpense;
+	
+	@FindBy(xpath=".//label[contains(text(),'Current home loan repayments')]/following-sibling::div/input")
+	WebElement currentLone;
+	
+	@FindBy(xpath=".//label[contains(text(),'Other loan repayments')]/following-sibling::div/input")
+	WebElement otherLoan;
+	
+	@FindBy(xpath=".//label[contains(text(),'Other commitments')]/following-sibling::div/input")
+	WebElement otherCommitments;
+	
+	@FindBy(xpath=".//label[contains(text(),'Total credit card limits')]/following-sibling::div/input")
+	WebElement creditCardLimit;
+	
+	@FindBy(xpath=".//button[contains(text(),'Work out how much I could borrow')]")
+	WebElement submitBtn;
+	
+	@FindBy(xpath=".//button[contains(text(),'Start over')]")
+	WebElement startOver;
+	
+	
+	
+	
+	public LoginPage() throws Exception{
+		
+		PageFactory.initElements(driver, this); 
+	}
+
+	public String validateLoginPageTitle(){
+	    return driver.getTitle();	
+	}
+	
+	public void validateDetails() {
+	     
+		applicationType.click();
+		Select oselect=new Select(dependents);
+		oselect.selectByIndex(0);
+		income.sendKeys("80000");
+		otherIncome.sendKeys("10000");
+		livingExpense.sendKeys("500");
+		currentLone.sendKeys("0");
+		otherLoan.sendKeys("100");
+		otherCommitments.sendKeys("0");
+		creditCardLimit.sendKeys("10000");
+		submitBtn.click();
+		
+	}
+	
+	
+}

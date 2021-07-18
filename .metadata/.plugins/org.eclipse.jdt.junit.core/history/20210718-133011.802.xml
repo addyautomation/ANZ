@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="MavenDemo" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="com.qa.runner.TestRunner" time="54.31">
+    <testsuite name="Feature: Borrowing Calculator validation" time="54.31">
+      <testcase name="Validate Borrowing Calculator Test" classname="Borrowing Calculator validation" time="54.31">
+        <failure>
+          <expected>Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 035 500.</expected>
+          <actual/>junit.framework.ComparisonFailure: expected:&lt;[Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 035 500.]&gt; but was:&lt;[]&gt;&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:100)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:107)&#13;
+	at com.qa.stepDefinitions.LoginPageSteps.user_validates_the_displayed_message(LoginPageSteps.java:95)&#13;
+	at ✽.user validates the displayed message(file:calculator.feature:12)&#13;
+&#13;
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

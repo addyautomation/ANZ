@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="MavenDemo" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.qa.runner.TestRunner" time="0.0">
+    <testsuite name="Feature: Borrowing Calculator validation" time="0.0">
+      <testcase name="Validate Borrowing Calculator Test" classname="Borrowing Calculator validation" time="0.0">
+        <skipped>cucumber.runtime.junit.UndefinedThrowable: The step "User launches given URL" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User enters all the details" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User clicks on workout button" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User is displayed with valid message" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "user clicks on Start Over menu" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User enters details" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User clicks on workout button" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "user validates the displayed message" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="MavenDemo" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="com.qa.runner.TestRunner" time="33.794">
+    <testsuite name="Feature: Borrowing Calculator validation" time="33.794">
+      <testcase name="Validate Borrowing Calculator Test" classname="Borrowing Calculator validation" time="33.794">
+        <failure>
+          <expected>$37,799</expected>
+          <actual>$463,176</actual>junit.framework.ComparisonFailure: expected:&lt;$[37,799]&gt; but was:&lt;$[463,176]&gt;&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:100)&#13;
+	at junit.framework.Assert.assertEquals(Assert.java:107)&#13;
+	at com.qa.stepDefinitions.LoginPageSteps.user_is_displayed_with_valid_message(LoginPageSteps.java:57)&#13;
+	at ✽.User is displayed with valid message(file:calculator.feature:8)&#13;
+&#13;
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

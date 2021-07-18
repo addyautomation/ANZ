@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="MavenDemo" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="com.qa.runner.TestRunner" time="24.537">
+    <testsuite name="Feature: Borrowing Calculator validation" time="24.537">
+      <testcase name="Validate Borrowing Calculator Test" classname="Borrowing Calculator validation" time="24.537">
+        <error>java.lang.NullPointerException&#13;
+	at com.qa.stepDefinitions.LoginPageSteps.user_enters_all_the_details(LoginPageSteps.java:40)&#13;
+	at ✽.User enters all the details(file:Features/calculator.feature:6)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

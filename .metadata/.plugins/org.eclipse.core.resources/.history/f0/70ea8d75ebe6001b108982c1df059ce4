@@ -1,0 +1,9 @@
+Feature: Borrowing Calculator validation
+
+Scenario: Validate Borrowing Calculator Test
+
+Given User launches given URL
+When User enters all the details
+And User clicks on workout button
+Then User 
+ 

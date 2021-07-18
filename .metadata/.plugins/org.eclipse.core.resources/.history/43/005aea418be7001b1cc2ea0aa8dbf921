@@ -1,0 +1,73 @@
+package com.qa.stepDefinitions;
+
+import org.openqa.selenium.By;
+
+import com.crm.qa.base.TestBase;
+import com.crm.qa.pages.HomePage;
+import com.crm.qa.pages.LoginPage;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class LoginPageSteps extends TestBase {
+
+	LoginPage login;
+	HomePage home;
+	public LoginPageSteps() throws Exception {
+		super();
+		
+	}
+
+	@Given("User launches given URL")
+	public void user_launches_given_URL() {
+	    
+		TestBase.initialization();
+	}
+
+	@When("User enters all the details")
+	public void user_enters_all_the_details() throws Exception {
+	    
+		/*login=new LoginPage();
+		home=login.validateDetails();*/
+		
+		driver.findElement(By.xpath(".//*[@id='application_type_single']")).click();
+	}
+
+	
+
+	@Then("User is displayed with valid message")
+	public void user_is_displayed_with_valid_message() {
+	    
+	}
+
+	@Then("user clicks on Start Over menu")
+	public void user_clicks_on_Start_Over_menu() {
+	    
+	}
+
+	@Then("User enters details")
+	public void user_enters_details() {
+	    
+	}
+
+	@Then("User clicks on workout button")
+	public void user_clicks_on_workout_button() {
+	   
+	}
+
+	@Then("user validates the displayed message")
+	public void user_validates_the_displayed_message() {
+	    
+	}
+	
+	@Then("User hits to display message")
+	public void user_hits_to_display_message() {
+	    
+	}
+
+
+	
+	
+	
+}

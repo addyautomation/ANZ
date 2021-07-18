@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="MavenDemo" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="com.qa.runner.TestRunner" time="0.0">
+    <testsuite name="Feature: Borrowing Calculator validation" time="0.0">
+      <testcase name="Validate Borrowing Calculator Test" classname="Borrowing Calculator validation" time="0.0">
+        <error>java.lang.NullPointerException&#13;
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:54)&#13;
+	at com.qa.stepDefinitions.LoginPageSteps.user_launches_given_URL(LoginPageSteps.java:32)&#13;
+	at ✽.User launches given URL(file:calculator.feature:5)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

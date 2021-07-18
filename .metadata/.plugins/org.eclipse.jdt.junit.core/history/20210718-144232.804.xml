@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="MavenDemo" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="com.qa.runner.TestRunner" time="50.45">
+    <testsuite name="Feature: Borrowing Calculator validation" time="50.45">
+      <testcase name="Validate Borrowing Calculator Test" classname="Borrowing Calculator validation" time="50.45">
+        <error>org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=.//*[@id='application_type_single']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UROR16R', ip: '192.168.1.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;
+	at com.qa.stepDefinitions.LoginPageSteps.user_enters_all_the_details(LoginPageSteps.java:39)&#13;
+	at ✽.User enters all the details(file:calculator.feature:6)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

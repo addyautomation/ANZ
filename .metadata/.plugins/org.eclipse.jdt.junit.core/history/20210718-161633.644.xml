@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="MavenDemo" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.qa.runner.TestRunner" time="68.743">
+    <testsuite name="Feature: Borrowing Calculator validation" time="68.743">
+      <testcase name="Validate Borrowing Calculator Test" classname="Borrowing Calculator validation" time="68.743"/>
+    </testsuite>
+  </testsuite>
+</testrun>
